@@ -1,13 +1,10 @@
 # Training diary Website
 
 ## Usage
-
-Install dependencies
-
 ```
-npm Install
+Go live server or open html in browser
 ```
 
-![Alt text](images/training-1.png.png)
-![Alt text](images/training-2.png.png)
-![Alt text](images/training-3.png.png)
+![Alt text](images/training-1.png)
+![Alt text](images/training-2.png)
+![Alt text](images/training-3.png)
