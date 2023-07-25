@@ -25,96 +25,48 @@
     <link rel="stylesheet" href="style.css" />
 
     <script defer src="script.js"></script>
-    <title>Дневник тренировок</title>
+    <title>Training diary</title>
   </head>
   <body>
     <div class="sidebar">
-      <h1 class="header">Дневник тренировок</h1>
+      <h1 class="header">Training diary</h1>
 
       <ul class="workouts">
         <form class="form hidden">
           <div class="form__row">
-            <label class="form__label">Тип</label>
+            <label class="form__label">Type</label>
             <select class="form__input form__input--type">
-              <option value="running">Бег</option>
-              <option value="cycling">Велосипед</option>
+              <option value="running">Running</option>
+              <option value="cycling">Bike</option>
             </select>
           </div>
           <div class="form__row">
-            <label class="form__label">Дистанция</label>
-            <input class="form__input form__input--distance" placeholder="км" />
+            <label class="form__label">Distance</label>
+            <input class="form__input form__input--distance" placeholder="km" />
           </div>
           <div class="form__row">
-            <label class="form__label">Длительность</label>
+            <label class="form__label">Duration</label>
             <input
               class="form__input form__input--duration"
-              placeholder="мин"
+              placeholder="min"
             />
           </div>
           <div class="form__row">
-            <label class="form__label">Темп</label>
+            <label class="form__label">Pace</label>
             <input
               class="form__input form__input--cadence"
-              placeholder="шагов/мин"
+              placeholder="steps/min"
             />
           </div>
           <div class="form__row form__row--hidden">
-            <label class="form__label">Высота</label>
+            <label class="form__label">Height</label>
             <input
               class="form__input form__input--elevation"
-              placeholder="метры"
+              placeholder="meters"
             />
           </div>
           <button class="form__btn">OK</button>
         </form>
-
-        <!-- <li class="workout workout--running" data-id="1234567890">
-          <h2 class="workout__title">Бег - 10 Мая</h2>
-          <div class="workout__details">
-            <span class="workout__icon">🏃‍♂️</span>
-            <span class="workout__value">3.2</span>
-            <span class="workout__unit">км</span>
-          </div>
-          <div class="workout__details">
-            <span class="workout__icon">⏱</span>
-            <span class="workout__value">24</span>
-            <span class="workout__unit">мин</span>
-          </div>
-          <div class="workout__details">
-            <span class="workout__icon">⚡️</span>
-            <span class="workout__value">4.6</span>
-            <span class="workout__unit">мин/км</span>
-          </div>
-          <div class="workout__details">
-            <span class="workout__icon">🦶🏼</span>
-            <span class="workout__value">178</span>
-            <span class="workout__unit">шаг</span>
-          </div>
-        </li>
-
-        <li class="workout workout--cycling" data-id="1234567891">
-          <h2 class="workout__title">Велосипед - 11 Мая</h2>
-          <div class="workout__details">
-            <span class="workout__icon">🚴‍♀️</span>
-            <span class="workout__value">27</span>
-            <span class="workout__unit">км</span>
-          </div>
-          <div class="workout__details">
-            <span class="workout__icon">⏱</span>
-            <span class="workout__value">95</span>
-            <span class="workout__unit">мин</span>
-          </div>
-          <div class="workout__details">
-            <span class="workout__icon">⚡️</span>
-            <span class="workout__value">16</span>
-            <span class="workout__unit">км/час</span>
-          </div>
-          <div class="workout__details">
-            <span class="workout__icon">⛰</span>
-            <span class="workout__value">223</span>
-            <span class="workout__unit">м</span>
-          </div>
-        </li> -->
       </ul>
     </div>
 
